@@ -20,7 +20,7 @@ class CASRequest
   end
 
   def logout?
-    @request.path_info == '/prelogout'
+    @request.path_info == '/logout'
   end
 
   def single_sign_out?
